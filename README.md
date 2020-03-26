@@ -1,10 +1,10 @@
-# entrofy
+# Diversify
 
 Participant selection for workshops and conferences made easy.
 
 Selection of participants for meetings as a discrete optimization problem.
 
-## Overview
+## Entrofy Overview
 
 Given a list of participants with various "attributes" (e.g., gender, career stage, subfield, geography, years since PhD), the code finds the distribution of values within each attribute (e.g, male, female) and generate a subset that approximates target value distributions (e.g, 50% male/female, 30% junior, 30% non-US). The attributes and values are user determined and based on the data present in uploaded CSV file.
 
