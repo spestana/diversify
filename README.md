@@ -10,6 +10,8 @@ Given a list of participants with various "attributes" (e.g., gender, career sta
 
 **Important**: While a flask app exists in this repo, it is only a very rudimentary reference implementation of what we'd like an actual app to look like and _not fully functional_. Please use the Python code instead, as demonstrated in the tutorial Jupyter notebook, or contact us for advice.
 
+[!imgs/whw_workflow_thoughts.png]
+
 
 ## About
 
