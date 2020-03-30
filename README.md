@@ -10,7 +10,7 @@ Given a list of participants with various "attributes" (e.g., gender, career sta
 
 **Important**: While a flask app exists in this repo, it is only a very rudimentary reference implementation of what we'd like an actual app to look like and _not fully functional_. Please use the Python code instead, as demonstrated in the tutorial Jupyter notebook, or contact us for advice.
 
-![workflow diagram](imgs/WHW_workflow_thoughts.png]
+![workflow diagram](./imgs/WHW_workflow_thoughts.png)
 
 
 ## About
@@ -89,6 +89,24 @@ First, collect data about the acceptable participants. This requires you to know
 
 - input list should be all acceptable candidates
 - input list should include pre-selected candidates so they are included in the distributions
+
+## Google Colab Instructions
+
+- Go to One Drive and Download data from Jotform as csv.
+- Open Google colab : https://colab.research.google.com/notebook
+- Upload the required notebook
+- Add the following code before any of the exisiting code and run in separate cells:
+
+from google.colab import drive
+drive.mount('/content/drive')
+
+
+CODE_PATH = '/content/drive/Shared drives/Freshwater/2020/Diversify/'
+import os
+os.chdir(CODE_PATH)
+
+- In the side bar, Upload the form responses csv file
+- Continue execution of the rest of the notebook
 
 ## Things you should know
 
