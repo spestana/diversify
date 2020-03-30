@@ -38,13 +38,21 @@ Note that this is explicitly not the same as a quota: the underlying algorithim 
 
 # Installation updates Cband & Jphuong 01/10/2019
 1. Be sure conda environment has python2
-> python --version
+```shell
+python --version
+```
 2. Activate environment
-> source activate py2 
+```shell
+source activate py2 
+```
 or
-> conda create py2 -n python=2.7
+```shell
+conda create py2 -n python=2.7
+```
 then 
-> source activate py2 
+```shell
+source activate py2 
+```
 3. From entrofy/apps directory
 Edited to remove json, and configparser edited to lowercase.
 
