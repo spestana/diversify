@@ -47,9 +47,17 @@ then
 > source activate py2 
 3. From entrofy/apps directory
 Edited to remove json, and configparser edited to lowercase.
-> pip install -r requirements.txt
+
+```shell
+pip install -r requirements.txt
+```
+
 4. From entrofy folder
+
+```shell
 python setup.py install
+```
+
 5. In the command line used for source activate, spin up Jupyter Notebook
 > jupyter notebook  
 in other terminals, the default environment will spin up
