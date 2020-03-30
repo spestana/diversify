@@ -97,14 +97,17 @@ First, collect data about the acceptable participants. This requires you to know
 - Upload the required notebook
 - Add the following code before any of the exisiting code and run in separate cells:
 
+```python
 from google.colab import drive
+
 drive.mount('/content/drive')
+```
 
-
+```python
 CODE_PATH = '/content/drive/Shared drives/Freshwater/2020/Diversify/'
 import os
 os.chdir(CODE_PATH)
-
+```
 - In the side bar, Upload the form responses csv file
 - Continue execution of the rest of the notebook
 
